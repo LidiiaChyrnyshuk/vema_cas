@@ -14,7 +14,7 @@ html {
 }
 
 body {
-	color: var(--color-text);
+	color: var(--first-color-text);
 	background: var(--color-bg);
 	position: relative;
 	width: 100vw;
@@ -22,4 +22,27 @@ body {
 	min-height: 100dvh;
 	overflow-x: hidden;
 	font-size: 16px;
+}
+
+body::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	z-index: 2;
+	background-image: url(../images/body/pattern.webp);
+	opacity: 1;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	position: relative;
+	z-index: 5;
+	background: url(../images/hero/image_hero.webp);
+	opacity: 1;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
 }

@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 	const track = document.getElementById("infiniteTrack");
 	const slider = document.querySelector(".infinite-slider");
-	const speed = 0.8; // пікселів за кадр
+	const speed = 0.9; // пікселів за кадр
 	let offset = 0;
 
 	// 1. Клонуємо вміст 3 рази для безперервності
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	// 2. Анімація
 	function animate() {
 		offset += speed;
-		track.style.transform = `translateX(-${offset}px)`;
+		track.style.transform = `translate3d(-${offset}px, 0, 0)`;
 
 		if (offset >= track.scrollWidth / 3) {
 			// Скидаємо, не видно бо дублікати є

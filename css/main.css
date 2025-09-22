@@ -1,4 +1,12 @@
 @import './variables.css';
 @import './fonts.css';
+@import './normalize.css';
 @import './reset.css';
 @import './base.css';
+@import './header.css';
+@import './button.css';
+@import './hero.css';
+@import './loyalty.css';
+@import './benefits.css';
+@import './games.css';
+@import './provider.css';
