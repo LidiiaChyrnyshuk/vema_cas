@@ -1,0 +1,44 @@
+.benefits {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7.31vw;
+  padding-bottom: 7.31vw;
+}
+.benefits-title {
+  font-family: "MontserratBold";
+font-weight: 700;
+font-style: normal;
+font-size: 4.26vw;
+line-height: 100%;
+text-align: center;
+text-transform: uppercase;
+display: flex;
+flex-direction: column;
+margin-bottom: 2.43vw;
+}
+.benefits-text {
+  font-family: "MontserratBold";
+font-weight: 700;
+font-style: normal;
+font-size: 6.09vw;
+line-height: 100%;
+text-align: center;
+text-transform: uppercase;
+color: var(--third-color-text);
+margin-bottom: 4.87vw;
+}
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4.87vw;
+}
+.benefits-item {
+  width: 90.24vw;
+  height: 40.24vw;
+  
+}
