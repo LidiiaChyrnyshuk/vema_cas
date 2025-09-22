@@ -2,22 +2,21 @@
 	width: 100%;
 	max-width: 1512px;
 	position: relative;
-	padding-top: 32px;
-	padding-right: 24px;
-	padding-bottom: 32px;
-	padding-left: 24px;
+	padding-top: 7.31vw;
+	padding-bottom: 7.31vw;
+	padding-left: 4.87vw;
 	z-index: 10;
 	margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+/* @media screen and (min-width: 768px) and (max-width: 1440px) {
 	.games {
 		padding-right: 48px;
 		padding-left: 48px;
 	}
-}
+} */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
 	.games {
 		padding-top: 60px;
 		padding-right: 156px;
@@ -27,23 +26,21 @@
 }
 
 .games-title {
-	font-weight: 500;
-	font-size: 24px;
-	line-height: 28px;
+	font-family: "MontserratBold";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 6.09vw;
+	line-height: 100%;
 	text-align: center;
-	margin-bottom: 24px;
+	text-transform: uppercase;
+	color: var(--third-color-text);
+	margin-bottom: 7.31vw;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
 	.games-title {
-		font-size: 48px;
-		line-height: 52px;
-		margin-bottom: 32px;
-	}
-}
-@media screen and (min-width: 1024px) {
-	.games-title {
-		margin-bottom: 40px;
+		font-size: 2vw;
+		margin-bottom: 1.66vw;
 	}
 }
 /* ----------mobile------------- */
@@ -55,7 +52,7 @@
 	margin-bottom: 24px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1439px) {
 	.games-mob {
 		display: none;
 	}
@@ -65,10 +62,7 @@
 	width: 87.69vw;
 	aspect-ratio: 342 / 172;
 	border-radius: 32px;
-
-	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: 4.87vw;
 }
 
 .video {
@@ -97,21 +91,14 @@
 	display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
 	.games-tab {
 		display: block;
 		margin-bottom: 32px;
 	}
 }
 
-@media screen and (min-width: 1024px) {
-	.games-tab {
-		display: block;
-		margin-bottom: 40px;
-	}
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
 	.games-row1 {
 		display: flex;
 		align-items: center;
@@ -135,7 +122,7 @@
 		aspect-ratio: 450 / 220;
 	}
 }
-@media screen and (min-width: 1512px) {
+@media screen and (min-width: 1440px) {
 	.item-wrap {
 		width: 450px;
 		height: 220px;
@@ -151,9 +138,9 @@
 	width: 16.86vw;
 	aspect-ratio: 1 / 1;
 	border-radius: 34px;
-	
+
 	overflow: hidden;
-  object-fit:cover;
+	object-fit: cover;
 }
 
 @media screen and (min-width: 1024px) {
@@ -169,10 +156,9 @@
 	}
 }
 
-
 @media screen and (min-width: 768px) {
 	.games-row2 {
-    width: 100%;
+		width: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -200,4 +186,3 @@
 		height: 150px;
 	}
 }
-

@@ -1,3 +1,4 @@
+
 .button {
 	display: flex;
 	align-items: center;
@@ -30,13 +31,19 @@
 		transform: scale(1);
 	}
 }
-
 .btn-wrap {
+	width: 93.59vw;
+	height: 35.06vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
+	background-image: url(../images/button/image_for_button_mob.webp);
+	opacity: 1;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 @media screen and (min-width: 1440px) {
@@ -47,4 +54,10 @@
 		border-radius: 1vw;
 		font-size: 1.66vw;
 	}
+	.btn-wrap {
+	width: 22.70vw;
+	height: 8.5vw;
+background-image: url(../images/button/image_for_button.webp);
 }
+}
+

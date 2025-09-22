@@ -5,7 +5,12 @@
 	margin-left: auto;
 	margin-right: auto;
 	pointer-events: none;
-	/* 	margin-bottom: 32px; */
+	margin-bottom: 14.63vw;
+}
+@media screen and (min-width:1440px) {
+	.provider {
+		margin-bottom: 1.66vw;
+	}
 }
 
 .infinite-slider-4 {
@@ -38,14 +43,14 @@
 	overflow: hidden;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
 	.infinite-slider-4 {
 		width: 100%;
 		margin-bottom: 32px;
 	}
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
 	.infinite-slider-4 {
 		width: 100%;
 		margin-bottom: 40px;
@@ -59,13 +64,13 @@
 	width: max-content;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
 	.infinite-track-4 {
 		gap: 50px;
 	}
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
 	.infinite-track-4 {
 		gap: 60px;
 	}

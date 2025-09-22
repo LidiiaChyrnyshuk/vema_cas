@@ -1,8 +1,10 @@
-*,*::after,*::before {
+*,
+*::after,
+*::before {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	-webkit-tap-highlight-color: transparent
+	-webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -10,7 +12,6 @@ html {
 	scroll-behavior: smooth;
 	height: auto;
 	min-height: 100%;
-
 }
 
 body {
@@ -36,13 +37,22 @@ body::after {
 	background-size: cover;
 	background-position: center;
 }
-
-.container {
-	position: relative;
-	z-index: 5;
-	background: url(../images/hero/image_hero.webp);
-	opacity: 1;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
+@media screen and (max-width: 1439px) {
+	.container {
+		position: relative;
+		z-index: 5;
+		background: url(../images/hero/image_hero.webp);
+		opacity: 1;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+		padding-bottom: 9.14vw;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.container {
+		position: relative;
+		z-index: 5;
+		padding-bottom: 5.95vw;
+	}
 }
