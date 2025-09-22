@@ -8,7 +8,20 @@
 	z-index: 10;
 	margin: 0 auto;
 }
-
+@media screen and (max-width: 1439px) {
+	.games::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		z-index: -1;
+		background-image: url(../images/accents/light_for_games_mob.webp);
+		opacity: 1;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: top center;
+	}
+}
 /* @media screen and (min-width: 768px) and (max-width: 1440px) {
 	.games {
 		padding-right: 48px;
