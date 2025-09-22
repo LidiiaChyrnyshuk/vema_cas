@@ -55,4 +55,28 @@ body::after {
 		z-index: 5;
 		padding-bottom: 5.95vw;
 	}
+	.container::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		z-index: 2;
+		background-image: url(../images/hero/image_hero_desk.webp);
+		opacity: 1;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: top 10% center;
+	}
+	.container::before {
+				content: "";
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		z-index: 2;
+		background-image: url(../images/footer/image_footer.webp);
+		opacity: 1;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: bottom center;
+	}
 }

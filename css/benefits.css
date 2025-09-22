@@ -61,10 +61,13 @@
 	}
 	.benefits-list {
 		flex-direction: row;
-		gap: 0.66vw;
+		/* gap: 0.66vw; */
+		gap: 16px;
 	}
 	.benefits-item {
-		width: 16.2vw;
-		height: 7.25vw;
+/* 		width: 16.2vw;
+		height: 7.25vw; */
+		width: 389px;
+		height: 174px;
 	}
 }
