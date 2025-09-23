@@ -19,7 +19,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	color: var(--third-color-text);
-	margin-bottom: 3.04vw;
+	/* margin-bottom: 1.82vw; */
 }
 .second-title {
 	font-family: "DelaGothicOne";
@@ -69,7 +69,7 @@
 	}
 	.first-title {
 		font-size: 3.75vw;
-		margin-bottom: 1.25vw;
+		/* margin-bottom: 1.25vw; */
 	}
 	.second-title {
 		font-size: 2.66vw;
