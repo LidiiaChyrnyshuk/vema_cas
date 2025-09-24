@@ -16,13 +16,14 @@
 			href="./apple-touch-icon.png"
 		/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Vema</title>
 		<link rel="stylesheet" href="./css/normalize.css" />
 		<link rel="stylesheet" href="./css/main.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 		/>
+    <script src="./js/language.js" defer></script>
 	</head>
 	<body>
 		<div class="container">
@@ -33,10 +34,10 @@
 			</header>
 			<section class="hero">
 				<p class="first-title">370%</p>
-				<h1 class="second-title">up to 6 000 EUR</h1>
+				<h1 class="second-title" data-translate="title">up to 6 000 EUR</h1>
 				<p class="bonus">+ 100 FS</p>
-				<h2 class="extra-bonus">+extra 50 FS</h2>
-				<a class="button" href="#" data-bonus rel="noopener noreferrer"
+				<h2 class="extra-bonus" data-translate="bonus">+extra 50 FS</h2>
+				<a class="button" href="#" data-bonus rel="noopener noreferrer" data-translate="heroButton"
 					>Registration</a
 				>
 			</section>
@@ -400,24 +401,24 @@
 				</div>
 			</section>
 			<section class="benefits">
-				<h2 class="benefits-title">
-					Trusted Casino <span>Gambling Guide for</span>
+				<h2 class="benefits-title" data-translate="benefitsTitle">
+					Trusted Casino <span data-translate="benefitsTitle2">Gambling Guide for</span>
 				</h2>
 				<h3 class="benefits-text">30+ Years - Casino.org</h3>
 				<ul class="benefits-list">
 					<li class="benefits-item">
-						<img src="./images/benefits/CARD1.webp" alt="bonuses" />
+						<img src="./images/benefits/CARD1.webp" data-translate-img="card1" alt="bonuses" />
 					</li>
 					<li class="benefits-item">
-						<img src="./images/benefits/CARD2.webp" alt="safe with money" />
+						<img src="./images/benefits/CARD2.webp" data-translate-img="card2" alt="safe with money" />
 					</li>
 					<li class="benefits-item">
-						<img src="./images/benefits/CARD3.webp" alt="golden eagle" />
+						<img src="./images/benefits/CARD3.webp" data-translate-img="card3" alt="golden eagle" />
 					</li>
 				</ul>
 			</section>
 			<section class="games">
-				<h3 class="games-title">Over 8000+ games</h3>
+				<h3 class="games-title" data-translate="gamesTitle">Over 8000+ games</h3>
 				<div class="games-mob">
 					<div class="video-wrapper">
 						<video class="video" autoplay muted loop playsinline>
@@ -875,6 +876,7 @@
 					href="#"
 					data-bonus
 					rel="noopener noreferrer"
+          data-translate="footerButton"
 					>Play</a
 				>
 			</div>
