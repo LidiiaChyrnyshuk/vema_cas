@@ -16,19 +16,19 @@ const translations = {
 		footerButton: "Play",
 	},
 	pt: {
-		title: "up to 6 000 EUR",
-		bonus: "+extra 50 FS",
-		heroButton: "Registration",
-		benefitsTitle: "Trusted Casino",
+		title: "até 6000 Eur",
+		bonus: "+ 50 FS extra",
+		heroButton: "Registo",
+		benefitsTitle: "Casino fiável",
 		benefitsTitle2: "Gambling Guide for",
-		benefitsText: "30+ Years - Casino.org",
+		benefitsText: "30+ Anos - Casino.org",
 		images: {
 			card1: "images/benefits/CARD1.webp",
 			card2: "images/benefits/CARD2.webp",
 			card3: "images/benefits/CARD3.webp",
 		},
-		gamesTitle: "Over 8000+ games",
-		footerButton: "Play",
+		gamesTitle: "Mais de 8000 jogos",
+		footerButton: "Jogar",
 	},
 };
     function getBrowserLanguage() {
