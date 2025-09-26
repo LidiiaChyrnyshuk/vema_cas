@@ -23,9 +23,9 @@ const translations = {
 		benefitsTitle2: "Gambling Guide for",
 		benefitsText: "30+ Anos - Casino.org",
 		images: {
-			card1: "images/benefits/CARD1.webp",
-			card2: "images/benefits/CARD2.webp",
-			card3: "images/benefits/CARD3.webp",
+			card1: "images/benefits/card1_pt.webp",
+			card2: "images/benefits/card2_pt.webp",
+			card3: "images/benefits/card3_pt.webp",
 		},
 		gamesTitle: "Mais de 8000 jogos",
 		footerButton: "Jogar",
