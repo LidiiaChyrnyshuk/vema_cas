@@ -20,7 +20,7 @@ const translations = {
 		bonus: "+ 50 FS extra",
 		heroButton: "Registo",
 		benefitsTitle: "Casino fiável",
-		benefitsTitle2: "Gambling Guide for",
+		benefitsTitle2: "Guia de Jogo para",
 		benefitsText: "30+ Anos - Casino.org",
 		images: {
 			card1: "images/benefits/card1_pt.webp",
